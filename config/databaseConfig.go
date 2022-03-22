@@ -1,11 +1,12 @@
 package config
 
 import (
-	helper "chat/api/helper"
 	"database/sql"
 	"fmt"
 	_ "github.com/lib/pq"
+	helper "github.com/leapfrog-training/go-chat/helper"
 )
+
 
 /**
  * Creating Global var to be accessed from outside the package.
